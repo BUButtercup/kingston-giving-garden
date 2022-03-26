@@ -1,0 +1,17 @@
+
+.car-img {
+    display:flex;
+    justify-content: center;
+}
+
+.img-title {
+    width: 70%;
+    align-self: flex-end;
+    padding:5px;
+    font-size: 0.8rem;
+    text-align:center;
+    background-color: rgba(100, 163, 111, 0.7);
+    color: white;
+    font-weight:bold;
+
+}
