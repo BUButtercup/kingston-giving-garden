@@ -1,8 +1,13 @@
 import React from 'react'
+import './style.css'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer class="container-fluid d-flex flex-column">
+      <small class="text-center">&copy Giving Garden 2022</small>
+      <small class="text-center">Website photography by Kathy Curry</small>
+      <small class="text-center">Site design by Nile Clark</small>
+    </footer>
   )
 }
 

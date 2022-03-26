@@ -2,6 +2,19 @@
     background-color: var(--med);
 }
 
+a, .nav-link:link, a:visited, .nav-link:visited {
+    text-decoration: none;
+    color:var(--dark);
+}
+
+.nav-link:hover {
+    color:slategray;
+}
+
+a:hover, .main-box a:hover{
+    background-color:var(--med);
+}
+
 .title {
     font-family:'Indie Flower', Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
