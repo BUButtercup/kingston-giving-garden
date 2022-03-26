@@ -1,0 +1,24 @@
+.alert-link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1rem;
+}
+
+.contact-link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:300;
+    font-size:1rem;
+}
+
+.contact-link:hover {
+    color:slategray;
+}
+
+@media screen and (max-width:450px){
+    #hidden-cal{
+        display: inline;
+    }
+
+#cal {
+    display: none;
+}
+}

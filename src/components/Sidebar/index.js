@@ -6,7 +6,7 @@ import Valley from '../../assets/images/valley-logo.png'
 
 const Sidebar = () => {
   return (
-    <sidebar className='col-3'>
+    <sidebar className='col-3 d-flex flex-column align-items-center'>
       <div class="col-12 d-flex flex-column align-items-center shadow side-card">
         <h3 class="title text-center my-3">Harvests Go to</h3>
         <a href="https://www.sharenetfoodbank.org/" target="_blank"

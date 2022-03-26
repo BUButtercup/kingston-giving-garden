@@ -1,0 +1,15 @@
+.accordion-header {
+    font-weight:bold;
+    font-size:3rem;
+}
+
+.accordion-item{
+    background-color:var(--light);
+}
+
+.accordion-button {
+    background-color:var(--med);
+}
+/* .accordion-button:activeKey {
+    background-color:var(--med);
+} */

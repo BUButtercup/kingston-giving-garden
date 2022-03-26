@@ -1,0 +1,62 @@
+.sub-title {
+    font-family: 'Indie Flower', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.expandable {
+    color:var(--dark);
+}
+
+.expandable:hover {
+    background-color:var(--med);
+}
+
+#less {
+    display: none;
+}
+
+details {
+    user-select: none;
+}
+
+details[open] summary span#less {
+    display: inline;
+}
+
+details[open] summary span#more {
+    display: none;
+}
+
+figcaption {
+    font-size:0.9rem;
+    font-style: italic;
+    /* padding: 10px; */
+    /* border: 1px solid black;
+    margin: 0; */
+}
+
+.fig-body {
+    padding: 10px;
+}
+
+.graph {
+    margin: 10px;
+    width: auto;
+}
+
+.embeded {
+    border: 5px solid var(--dark);
+    border-radius:5px;
+}
+
+#hidden-cal{
+    display: none;
+    align-self: center;
+    font-weight:bold;
+    padding: 5px;
+    background-color:var(--med);
+    border: 2px solid var(--dark);
+    border-radius:5px;
+    color: 000000;
+    color: #000;
+}
