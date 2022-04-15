@@ -1,0 +1,9 @@
+.years {
+    padding: 2px;
+    cursor: pointer;
+    color: var(--dark);
+}
+
+.years:hover {
+    background-color: var(--med);
+}

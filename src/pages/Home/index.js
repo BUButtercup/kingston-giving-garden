@@ -55,7 +55,7 @@ const Home = () => {
           <div className="card-body fig-body">
             <figcaption className="card-text text-center fig-test">Our harvest totals by year. For a
               closer look
-              at our harvests year by year, visit the <a href="data">Harvest Data</a>
+              at our harvests year by year, visit the<a href="data"> Harvest Data </a> 
               page.</figcaption>
           </div>
         </div>

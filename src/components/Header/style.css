@@ -7,7 +7,7 @@ a, .nav-link:link, a:visited, .nav-link:visited {
     font-weight: bold;
     font-size:20px;
     text-decoration: none;
-    color:var(--dark);
+    color:black;
 }
 
 .nav-link:hover {
