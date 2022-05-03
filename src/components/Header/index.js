@@ -7,9 +7,9 @@ import PhotoCarousel from '../Carousel'
 const Header = () => {
   return (
     <div className='container-fluid p-0'>
-      <Navbar collapseOnSelect expand="lg" fixed="top" defaultActiveKey="/home" className='d-flex flex-column w-100'>
+      <Navbar collapseOnSelect expand="lg" fixed="top" className='d-flex flex-column w-100'>
         <div className='d-flex justify-content-between align-items-center w-100 px-3'>
-          <a class="navbar-brand title d-flex align-items-center" href="/" id="brand-icon">
+          <a className="navbar-brand title d-flex align-items-center" href="/" id="brand-icon">
             <img src={Logo} id="header-leaf" />
             <Nav.Link href="/">Home</Nav.Link>
           </a>

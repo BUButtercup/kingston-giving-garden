@@ -88,17 +88,17 @@ const PhotoCarousel = () => {
     <Carousel fade className='shadow mb-3 p-0'>
      <Carousel.Item  interval={5000} className='d-flex flex-row'>
      {photoGroup.map((obj, index)=> {return <div key={obj.id}  className='col-3 car-img' style={{height:'200px', backgroundImage: `url(${obj.url})`, backgroundPosition: `${obj.position}`, backgroundRepeat: 'no-repeat', backgroundSize: `cover`}}>
-        <p class="img-title">{obj.subtitle}</p>
+        <p className="img-title">{obj.subtitle}</p>
         </div>})}
       </Carousel.Item>
       <Carousel.Item  interval={5000} className='d-flex flex-row'>
       {photoGroup2.map((obj, index)=> {return <div key={obj.id}  className='col-3 car-img' style={{height:'200px', backgroundImage: `url(${obj.url})`, backgroundPosition:`${obj.position}`, backgroundRepeat: 'no-repeat', backgroundSize: `cover`}}>
-        <p class="img-title">{obj.subtitle}</p>
+        <p className="img-title">{obj.subtitle}</p>
         </div>})}
       </Carousel.Item>
       <Carousel.Item  interval={5000} className='d-flex flex-row'>
       {photoGroup3.map((obj, index)=> {return <div key={obj.id}  className='col-3 car-img' style={{height:'200px', backgroundImage: `url(${obj.url})`, backgroundPosition: `${obj.position}`, backgroundRepeat: 'no-repeat', backgroundSize: `cover`}}>
-        <p class="img-title">{obj.subtitle}</p>
+        <p className="img-title">{obj.subtitle}</p>
         </div>})}
       </Carousel.Item>
     </Carousel>
