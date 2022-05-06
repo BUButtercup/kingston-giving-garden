@@ -62,6 +62,6 @@ export const Harvest2021 = () => {
 }
 export const Harvest2022 = () => {
   return (
-    <></>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjbFVmwuxxV_GUA5b_NFq_Np5XnoHTZF4EpntnUcKkBQFw6El8qg76oXg8c1_nHA/pubchart?oid=544692379&amp;format=interactive" width="600" height="400" ></iframe>
   )
 }

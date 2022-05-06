@@ -7,3 +7,16 @@
 .years:hover {
     background-color: var(--med);
 }
+
+.thumbnail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
