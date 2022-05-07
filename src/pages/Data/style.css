@@ -1,22 +1,25 @@
 .years {
     padding: 2px;
     cursor: pointer;
-    color: var(--dark);
+    color: black;
+    font-weight: bold;
+    z-index: 4;
 }
 
-.years:hover {
+/* .years:hover {
     background-color: var(--med);
-}
+} */
 
-.thumbnail {
+.thbnail {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100px;
     width: 100px;
     margin: 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-repeat: no-repeat;
     background-size:cover;
     background-position:center;
+    z-index: 0;
 }

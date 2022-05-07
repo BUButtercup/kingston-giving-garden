@@ -24,7 +24,7 @@ const Header = () => {
                 <NavDropdown.Item href="/tools">Tool Library</NavDropdown.Item>
                 <NavDropdown.Item href="#action4">Local Resources</NavDropdown.Item>
                 <NavDropdown.Item href="#action5">Historical Donors</NavDropdown.Item>
-                <NavDropdown.Item href="#action5">Photo Gallery</NavDropdown.Item>
+                <NavDropdown.Item href="gallery">Photo Gallery</NavDropdown.Item>
               </NavDropdown>
             </Navbar.Collapse>
           </div>

@@ -3,12 +3,13 @@ import { Link, Outlet } from 'react-router-dom'
 import Image from 'react-bootstrap/Image'
 import './style.css'
 import { Harvest2022 } from '../../assets/utils/harvestGraphs'
-import Thumb2011 from '../../assets/images/2011 Garden Harvest.png'
+import Thumb2011 from '../../assets/images/2011.png'
 import Thumb2012 from '../../assets/images/2012 Garden Harvest.png'
 import Thumb2013 from '../../assets/images/2013 Garden Harvest.png'
 import Thumb2014 from '../../assets/images/2014 Garden Harvest.png'
 import Thumb2020 from '../../assets/images/2020 Garden Harvest.png'
 import Thumb2021 from '../../assets/images/2021 Garden Harvest.png'
+import Bee from '../../assets/images/leaf.png'
 
 const Data = () => {
   // const [image, setImage] = useState(6)
@@ -17,7 +18,8 @@ const Data = () => {
     {
       id: 1,
       year: '2011',
-      source: Thumb2011
+      source: '../../assets/images/2011 Garden Harvest.png'
+      // Thumb2011
     },
     {
       id: 2,
@@ -53,20 +55,15 @@ const Data = () => {
       <h2 className="mt-4 title">Historical Harvest Data</h2>
       <Outlet />
       {/* <p className="col-11 align-self-center">Click on the thumbnail images to see an interactive graph of each year's harvest data.</p> */}
-      {/* {image === 1 ? <Harvest2011 /> : null}
-      {image === 2 ? <Harvest2012 /> : null}
-      {image === 3 ? <Harvest2013 /> : null}
-      {image === 4 ? <Harvest2014 /> : null}
-      {image === 5 ? <Harvest2020 /> : null}
-      {image === 6 ? <Harvest2021 /> : null} */}
+
       <div className='col-9 d-flex justify-content-center'>
         {harvestYears.map(year => {
           return (
 
-            <Link key={year.id} to={year.year}>
-              <div className='thumbnail' style={{backgroundImage:`url(${year.source})`}}>
+            <Link key={year.id} to={year.year}  style={{ backgroundImage: `url(${Bee})`}} className="thbnail">
+
               <h4 key={year.id} className='mx-2 years'>{year.year}</h4>
-              </div>
+    
             </Link>
 
           )

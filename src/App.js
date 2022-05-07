@@ -13,6 +13,7 @@ import Volunteer from "./pages/Volunteer";
 import Donate from "./pages/Donate";
 import Data from "./pages/Data";
 import Tools from "./pages/Tools";
+import Gallery from './pages/Gallery'
 import { Harvest2011, Harvest2012, Harvest2013, Harvest2014, Harvest2015, Harvest2016, Harvest2017, Harvest2018, Harvest2019, Harvest2020, Harvest2021, Harvest2022 } from './assets/utils/harvestGraphs'
 
 
@@ -45,6 +46,7 @@ function App() {
             <Route path="2021" element={<Harvest2021/>}></Route>
           </Route>
           <Route path="tools" element={<Tools />}></Route>
+          <Route path="gallery" element={<Gallery/>}/>
         </Routes>
       </Row>
 

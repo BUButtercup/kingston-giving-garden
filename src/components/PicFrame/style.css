@@ -1,0 +1,34 @@
+.outer-frame {
+    height: auto;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 10px;
+    box-shadow: 2px 2px 5px slategray;
+    /* border: 1px solid black; */
+}
+
+/* .inner-frame {
+    height: 190px;
+    width: 215px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+} */
+
+.pic-img {
+    height: 175px;
+    width: 285px;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    /* border: 1px solid green; */
+}
+
+.pic-cap {
+    margin: 0;
+    font-size: 0.8rem;
+    background-color:white;
+}
